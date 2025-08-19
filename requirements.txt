@@ -1,17 +1,15 @@
-# Core build tools (important for avoiding metadata-generation errors)
+# Build tools
 pip>=24.0
 setuptools>=65.5.0
 wheel>=0.42.0
 
-# Streamlit framework
-streamlit>=1.36.0
+# Core app
+streamlit>=1.38.0
 
-# Common dependencies
-pandas>=2.2.0
-numpy>=1.26.0
+# Data handling
+pandas>=2.2.2
+
+# Web scraping
 requests>=2.32.0
-
-# Optional: if you’re using PDF parsing, NLP, or ML, add here
-# PyPDF2>=3.0.0
-# scikit-learn>=1.5.0
-# matplotlib>=3.8.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.3
